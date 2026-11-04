@@ -64,13 +64,14 @@ The complete source code is available in the following file:
 ## Future Improvements
 
 - Improve pedestrian detection accuracy and distance estimation.
-- Optimize LoRa communication for more reliable sensor data transmission.
+- Optimize LoRa communication for more reliable data transmission.
 - Expand the system to support a larger number of streetlights and sensors.
-- Implement more advanced brightness control strategies to further reduce energy consumption.
+- Implement more advanced brightness control strategies to further improve energy efficiency.
+- Explore the possibility of integrating solar-powered lighting.
 
 ## Additional Projects
 
-Explore more robotics, electronics, and engineering projects on my [GitHub profile](https://github.com/Dimash-X).
+Explore more robotics, mechatronics, and engineering projects on my [GitHub profile](https://github.com/Dimash-X).
 
 ## Contact
 
@@ -78,7 +79,7 @@ For questions, suggestions, or project improvements, feel free to contact me at 
 
 ## Disclaimer
 
-This project is provided for educational and experimental purposes. Anyone building, modifying, or operating the system is responsible for ensuring safe electrical connections, proper component installation, and reliable operation. The author is not responsible for any damage, injury, or losses resulting from the construction or use of this project.
+This project is provided for educational and experimental purposes. Anyone building, modifying, or operating the system is responsible for ensuring safe assembly, electrical connections, and operation. The author is not responsible for any damage, injury, or losses resulting from the construction or use of this project.
 
 ## License
 
