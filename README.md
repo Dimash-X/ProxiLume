@@ -3,6 +3,7 @@
 An intelligent lighting system that dynamically adjusts streetlight brightness based on pedestrian presence and distance, designed to improve energy efficiency and safety in public spaces.
 
 ## ProxiLume in Action
+![ProxiLume](media/ProxiLume.gif)![ProxiLume Program](media/ProxiLume_Program.gif)
 
 ## Overview
 
@@ -44,13 +45,15 @@ The ProxiLume prototype is built using a microcontroller, a mini computer, and b
 
 ## Software and Control
 
-The ProxiLume system uses a mini computer and an Arduino Uno to control the adaptive lighting system. The mini computer handles pedestrian detection and distance estimation, while the Arduino Uno controls the brightness of the 12 LED lights based on the received information.
+The ProxiLume system uses a mini computer and an Arduino Uno to manage pedestrian detection and adaptive lighting control. The mini computer processes sensor data and determines the appropriate lighting intensity, while the Arduino Uno controls the brightness of the 12 LED lights.
 
 ### Source Code
 
-The complete source code is available in the following file:
+The software consists of two main programs:
 
-- **[Source Code](PATH_TO_CODE_FILE)** – Contains the main program for pedestrian detection, distance estimation, and adaptive LED brightness control.
+- **[ProxiLume.py](software/ProxiLume.py)** – Main Python program responsible for processing sensor information and managing the adaptive lighting system.
+- **[ProxiLume_Arduino.exe](software/ProxiLume_Arduino.exe)** – Arduino-related program for controlling the LED lights through the Arduino Uno.
+
 
 ## Working Principle
 
