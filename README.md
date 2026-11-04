@@ -52,6 +52,7 @@ The ProxiLume system uses a mini computer and an Arduino Uno to manage pedestria
 The software consists of two main programs:
 
 - **[ProxiLume.py](software/ProxiLume.py)** – Main Python program responsible for processing sensor information and managing the adaptive lighting system.
+
 The Arduino software (`ProxiLume_Arduino.exe`) is available in the [Releases](https://github.com/Dimash-X/ProxiLume_Proximity_Based_Adaptive_Park_Lighting_System/releases) section of this repository.
 
 ## Working Principle
