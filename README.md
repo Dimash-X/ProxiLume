@@ -51,8 +51,8 @@ The ProxiLume system uses a mini computer and an Arduino Uno to manage pedestria
 
 The software consists of two main programs:
 
-- **[ProxiLume.py](software/ProxiLume.py)** – Main Python program responsible for processing sensor information and managing the adaptive lighting system.
-- **[ProxiLume_Arduino.exe](software/ProxiLume_Arduino.exe)** – Arduino-related program for controlling the LED lights through the Arduino Uno.
+- **[ProxiLume.py](software/ProxiLume.py)** – Main Python program for pedestrian detection and adaptive lighting control.
+- **[Download ProxiLume Arduino Software](YOUR_RELEASE_DOWNLOAD_LINK)** – Arduino-related software for controlling the LED lighting system.
 
 
 ## Working Principle
