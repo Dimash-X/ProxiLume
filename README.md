@@ -45,15 +45,14 @@ The ProxiLume prototype is built using a microcontroller, a mini computer, and b
 
 ## Software and Control
 
-The ProxiLume system uses a mini computer and an Arduino Uno to manage pedestrian detection and adaptive lighting control. The mini computer processes sensor data and determines the appropriate lighting intensity, while the Arduino Uno controls the brightness of the 12 LED lights.
+The ProxiLume system uses a mini computer and an Arduino Uno to manage pedestrian detection and adaptive lighting control. The mini computer processes sensor information and determines the appropriate lighting intensity, while the Arduino Uno controls the brightness of the 12 LED lights.
 
 ### Source Code
 
 The software consists of two main programs:
 
-- **[ProxiLume.py](software/ProxiLume.py)** – Main Python program for pedestrian detection and adaptive lighting control.
+- **[ProxiLume.py](software/ProxiLume.py)** – Main Python program responsible for processing sensor information and managing the adaptive lighting system.
 - **[Download ProxiLume Arduino Software](https://github.com/Dimash-X/ProxiLume_Proximity_Based_Adaptive_Park_Lighting_System/releases/download/v1.0.0/ProxiLume_Arduino.exe)** – Arduino-related software for controlling the LED lights through the Arduino Uno.
-
 
 ## Working Principle
 
