@@ -4,16 +4,8 @@ An intelligent lighting system that dynamically adjusts streetlight brightness b
 
 ## ProxiLume in Action
 
-<table>
-  <tr>
-    <td align="center" valign="middle">
-      <img src="media/ProxiLume.gif" width="450">
-    </td>
-    <td align="center" valign="middle">
-      <img src="media/ProxiLume_Program.gif" width="450">
-    </td>
-  </tr>
-</table>
+![ProxiLume](media/ProxiLume.gif)
+![ProxiLume Program](media/ProxiLume_Program.gif)
 
 ## Overview
 
