@@ -1,38 +1,3 @@
-"""
-Single application with two buttons:
-
-  [ Camera ]        - computer camera: a regular window with video, a box +
-                      distance + brightness for EVERY person.
-  [ Screen sharing ] - you select an area of the screen with the mouse (like
-                      the Windows Snipping Tool), and RIGHT ON TOP of that
-                      area, at the same size and in the same place, a
-                      transparent layer with boxes and labels appears - the
-                      video underneath stays visible as usual, and there is
-                      no separate window with a picture anymore.
-
-WHY IT WORKS THIS WAY NOW (instead of a separate window):
-  Previously the result was shown in a separate window containing a copy of
-  the picture - that caused recursion (a "matryoshka" of windows) and was
-  inconvenient (you had to look at another window). Now the overlay is a
-  TRANSPARENT window with boxes/text, placed exactly over the selected area.
-  Transparency works through a special "color key" (Windows only) - anything
-  drawn in that color becomes invisible, and what is actually on the screen
-  shows through.
-
-Installing dependencies:
-    pip uninstall opencv-python -y
-    pip install ultralytics opencv-contrib-python numpy mss
-
-IMPORTANT: you need opencv-contrib-python specifically, not the regular
-opencv-python - it contains the trackers (KCF/CSRT) that are needed to follow
-a person when detection confidence drops (see TRACK_HOLD_SECONDS below). If
-both packages are installed at the same time there will be a conflict, so it
-is better to uninstall the regular opencv-python first.
-
-Run:
-    python app.py
-"""
-
 import sys
 import threading
 import time
